@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.slider{
+    height: 90vh;
+}
+
+.nevbar{
+    background-color: aqua;
+    width: 100vw;
+    height: 62px;
+    text-align: center; 
+     
+    align-items: center;
+    display: flex;
+    background: transparent;
+}
+.nevbar.logo{
+    position: relative;
+    float: left;
+    padding-left: 7px;
+    padding-bottom: 11px;
+    align-items: center;
+    margin-left:8px ;
+}
+
+.nevbar .a{
+    padding: 16px;
+    width: 100vw;
+}
+
+.nevbar .a a{
+    font-size: 20px;
+    font-weight: 650px;
+    margin-left: 60px;
+     font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+ 
+.nevbar .a a:hover{
+    color: orange;
+   
+}
+
+ mark span{
+   color: green;
+ }
+  
+ .h3{
+    color: green;
+    font-size: 21px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 35px; 
+ }
+
+ .header{
+    height: 430px;
+     
+ }
+
+ .header h1{
+    position: relative;
+    font-size: 58px;
+    font-family: Sans-serif; 
+    margin-top: 110px;
+    font-weight: 700;
+     text-align: center;
+    -webkit-text-stroke: 0.2vw white; 
+ }
+
+ .header h1 span{
+  color: orangered;
+  -webkit-text-stroke: 0.2vw yellow; 
+ }
+
+ .header h1 .come-visit{
+  margin-top: 25px;
+ }
+
+ 
+ .slider{
+    height: 100%;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/homepage/hp1.webp");
+    background-size: cover;
+    animation: slide 30s infinite;
+ }
+
+ @keyframes slide{
+    25%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/SLIDER/victoria_memorial.jpeg");
+        background-size: cover;
+    }
+
+    50%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/SLIDER/tajmahal.jpeg");
+        background-size: cover;
+    }
+
+    75%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/homepage/hp4.jpg");
+        background-size: cover;
+    }
+
+    100%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/historicalplaces/Mumbai-India-scaled.jpg");
+        background-size: cover;
+    }
+ }
+
+ /*packages*/
+ .contener{
+    height: 100vh;
+ }
+
+ .contener .section .header h1{
+   
+    font-size: 53px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: 800;
+    color: black;
+     
+    text-shadow: 8px 8px 8px green;
+    
+ }
+
+ .contener .section .header{
+   position: relative
+   
+ }
+
+ .contener .section .header .galary{
+   display: inline-block;
+   display: flex;
+   
+ }
+
+
+ .contener .section .header .img001{
+    width: 275px;
+    height: 320px;
+    background-color: yellow;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 49px;
+    
+    background-color: white;
+    border: 2px solid black;
+     
+     
+ }
+
+  
+ .contener .section .header .img001:hover{
+    
+    box-shadow: 4px 4px 8px black;
+ }
+
+ .img001 .head{
+   margin-top: 190px;
+   position: absolute;
+    
+   margin-left: 44px;
+   font-size: 22px;
+   font-weight: bold;
+ }
+
+ .img001 p{
+   font-size: 18.5px;
+   position: absolute;
+   width: 225px;
+   text-align: center;
+   margin-top: 220px;
+   margin-left: 23px;
+ }
+
+ .img001 button{
+   position: absolute;
+   margin-top: 270px;
+   width: 89px;
+   height: 37px;
+   margin-left: 83px;
+   cursor: pointer;
+   background-color: rgb(5, 246, 5);
+   
+ }
+
+ .img001 button a{
+   font-size: 17px;
+   text-decoration: none;
+   color: white;
+ }
+
+ .img001 button:hover{
+   background-color: black;
+ }
+
+ .img002 .head{
+   margin-top: 7px;
+   position: absolute;
+    
+   margin-left: 52px;
+   font-size: 22px;
+   font-weight: bold;
+ }
+
+ .img002 p{
+   font-size: 18.5px;
+   position: absolute;
+   width: 225px;
+   text-align: center;
+   margin-top: 37px;
+   margin-left: 23px;
+ }
+
+ .img002 button{
+    
+   margin-top: 86px;
+   width: 89px;
+   height: 37px;
+   margin-left: 83px;
+   cursor: pointer;
+   background-color: rgb(5, 246, 5);
+   
+ }
+
+ .img002 button a{
+   font-size: 17px;
+   text-decoration: none;
+   color: white;
+ }
+
+ .img002 button:hover{
+   background-color: black;
+ }
+
+ .img003 .head{
+   margin-top: 7px;
+   position: absolute;
+    
+   margin-left: 48px;
+   font-size: 22px;
+   font-weight: bold;
+ }
+
+ .img003 p{
+   font-size: 18.5px;
+   position: absolute;
+   width: 225px;
+   text-align: center;
+   margin-top: 37px;
+   margin-left: 23px;
+ }
+
+ .img003 button{
+    
+   margin-top: 86px;
+   width: 89px;
+   height: 37px;
+   margin-left: 83px;
+   cursor: pointer;
+   background-color: rgb(5, 246, 5);
+   
+ }
+
+ .img003 button a{
+   font-size: 17px;
+   text-decoration: none;
+   color: white;
+ }
+
+ .img003 button:hover{
+   background-color: black;
+ }
+
+ .img004 .head{
+   margin-top: 7px;
+   position: absolute;
+    
+   margin-left: 48px;
+   font-size: 22px;
+   font-weight: bold;
+ }
+
+ .img004 p{
+   font-size: 18.5px;
+   position: absolute;
+   width: 225px;
+   text-align: center;
+   margin-top: 37px;
+   margin-left: 23px;
+ }
+
+ .img004 button{
+    
+   margin-top: 86px;
+   width: 89px;
+   height: 37px;
+   margin-left: 83px;
+   cursor: pointer;
+   background-color: rgb(5, 246, 5);
+   
+ }
+
+ .img004 button a{
+   font-size: 17px;
+   text-decoration: none;
+   color: white;
+ }
+
+ .img004 button:hover{
+   background-color: black;
+ }
+
+ .contener .section .header .img002{
+    width: 275px;
+    height: 320px;
+     
+     
+    background-color: green;
+    margin-top: 24px;
+    margin-left: 30px;
+    background-color: white;
+    border: 2px solid black;
+    
+    
+ }
+
+ .contener .section .header .img002:hover{
+     
+    box-shadow: 4px 4px 8px black;
+ }
+
+ .contener .section .header .img003{
+    width: 275px;
+    height: 320px;
+     
+    background-color: orange;
+    margin-top: 24px;
+    margin-left: 30px;
+    background-color: white;
+    border: 2px solid black;
+    
+    
+ }
+
+ .contener .section .header .img003:hover{
+     
+    box-shadow: 4px 4px 8px black;
+ }
+
+ .contener .section .header .img004{
+    width: 275px;
+    height: 320px;
+     
+    background-color: pink;
+    margin-top: 24px;
+    margin-left: 30px;
+    background-color: white;
+    border: 2px solid black;
+    
+    
+ }
+
+ .contener .section .header .img004:hover{
+    
+   box-shadow: 4px 4px 8px black;
+}
+
+
+/* garary 2*/
+.contener .section .header .galary2{
+   display: inline-block;
+   display: flex;
+   margin-top: 30px;
+   height: 385px;
+ }
+
+
+ .contener .section .header .img005{
+    width: 275px;
+    height: 320px;
+    background-color: yellow;
+    display: flex;
+    margin-top: 24px;
+    margin-left: 49px;
+    
+    background-color: white;
+    border: 2px solid black;
+     
+     
+ }
+
+ .contener .section .header .img005:hover{
+    
+   box-shadow: 4px 4px 8px black;
+}
+
+.img005 .head{
+  margin-top: 190px;
+  position: absolute;
+   
+  margin-left: 48px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.img005 p{
+  font-size: 18.5px;
+  position: absolute;
+  width: 225px;
+  text-align: center;
+  margin-top: 220px;
+  margin-left: 23px;
+}
+
+.img005 button{
+  position: absolute;
+  margin-top: 270px;
+  width: 89px;
+  height: 37px;
+  margin-left: 83px;
+  cursor: pointer;
+  background-color: rgb(5, 246, 5);
+  
+}
+
+.img005 button a{
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+}
+
+.img005 button:hover{
+  background-color: black;
+}
+
+
+
+ 
+
+
+  
+
+ 
+
+ 
+
+/* for footer css source code*/
+
+.footer{
+  position: relative;
+  margin-top: 200px;
+  width: 100vw;
+  height: 65vh;
+  background-color: rgb(9, 9, 57);
+}
+
+.footer_wrapper{
+  width: 88vw;
+  display: flex;
+   
+}
+
+.footer_wrapper .imp_link{
+  color: white;
+  margin-top: 60px;
+  margin-left: 170px;
+  align-items: center;
+
+}
+
+.footer_wrapper .imp_link .hr1 hr{
+ width: 80px;
+ margin-left: 0px;
+ margin-top: 6px;  
+}
+
+.footer_wrapper .imp_link h2 hr{
+  width: 110px;
+ margin-left: 0px;
+ margin-top: 6px;
+}
+
+.footer_wrapper .imp_link .hr4 hr{
+  width: 122px;
+  margin-left: 0px;
+  margin-top: 6px; 
+}
+
+.footer_wrapper .imp_link ul{
+  margin-top: 25px;
+  margin-left: 10px;
+  list-style: none;
+}
+
+.footer_wrapper .imp_link ul li{
+  margin-bottom: 16px;
+  color:rgb(246, 242, 242);
+}
+
+.footer_wrapper .imp_link ul li:hover{
+  color: orange;
+}
+
+.footer_wrapper .imp_link input{
+  width: 15vw;
+  height: 30px;
+  margin-top: 18px;
+
+}
+
+.footer_wrapper .imp_link .footer_btn{
+  margin-top: 17px;
+  width: 15vw;
+  height: 30px;
+  background-color: rgb(248, 42, 111);
+  color: white;
+}
+
+.footer_wrapper .imp_link .footer_btn:hover{
+  background-color: rgb(174, 86, 115);
+}
+
+.footer .hr_bottom{
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.footer_heading{
+  color: white;
+  margin-top: 16px;
+  margin-left: 35px;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+}
+
+.footer_cantent h5{
+  color: #bbb;
+  margin-top: 10px;
+}
+
+.footer_heading i{
+  margin-left: 30px;
+}
+
+.footer_heading .social_media{
+  margin-left: 550px;
+  font-size: 16px;
+}
+
+#h4{
+  align-items: center;
+  text-align: center;
+}
+
+#h4 p{
+  color: #bbb;
+  align-items: center;
+  margin-right: 20px;
+  overflow: hidden;
+  justify-content: center;
+}
+        
