@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+
+.nevbar{
+    background-color: aqua;
+    height: 62px;
+    text-align: center; 
+     
+    align-items: center;
+    display: flex;
+    background: transparent;
+}
+.nevbar.logo{
+    position: relative;
+    float: left;
+    padding-left: 7px;
+    padding-bottom: 11px;
+    align-items: center;
+    margin-left:8px ;
+}
+
+.nevbar .a{
+    padding: 16px;
+    width: 800px;
+}
+
+.nevbar .a a{
+    font-size: 20px;
+    font-weight: 650px;
+    margin-left: 60px;
+     font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.nevbar .a a:hover{
+    color: orange;
+   
+}
+
+.nevbar .admin{
+    margin-left: 70px;
+}
+ 
+.nevbar .admin h4{
+    font-size: 20px;
+    margin-left: 40px;
+ }
+
+ .nevbar .btn button a{
+     text-decoration: none;
+      font-size: 19px;
+      color: white;
+ }
+
+ .nevbar .btn button{
+    background-color: chocolate;
+    width: 107px;
+    height: 38px;
+    border-radius: 14px;
+    margin-left: 40px;
+ }
+
+ .nevbar .btn button:hover{
+    border: 2px solid white;  
+    background-color: black;
+ }
+  
+ .h3{
+    color: green;
+    font-size: 21px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 35px; 
+ }
+
+ .header{
+    height: 430px;
+     
+ }
+
+ .header h1{
+    font-size: 49px;
+    color: white;
+    margin-top: 130px;
+    margin-left: 550px;
+    
+ }
+
+  
+
+ .slider{
+    height: 100vh;
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/homepage/hp1.webp");
+    background-size: cover;
+    animation: slide 30s infinite;
+ }
+
+ @keyframes slide{
+    25%{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/homepage/hp2.jpg");
+        background-size: cover;
+    }
+
+    50%{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/homepage/hp3.jpg");
+        background-size: cover;
+    }
+
+    75%{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/homepage/hp4.jpg");
+        background-size: cover;
+    }
+
+    100%{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/historicalplaces/Mumbai-India-scaled.jpg");
+        background-size: cover;
+    }
+ }
+
+
+ .container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+/* Section Styles */
+.services {
+    background-color: #f8f9fa; /* Set your preferred background color */
+    padding: 50px 0;
+    height: 100vh;
+}
+
+.main-txt {
+    text-align: center;
+    font-size: 28px;
+    padding-bottom: 20px;
+}
+
+.main-txt h1{
+    font-weight: 700;
+     
+}
+
+.main-txt h1 span{
+    color: orangered;
+    font-weight: 700;
+}
+
+/* Card Styles */
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: box-shadow 0.3s;
+    text-align: center;
+    height:220px;
+    
+}
+
+.card:hover {
+    box-shadow: 0 7px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card i {
+    font-size: 4rem;
+    margin-bottom: 10px;
+     
+     margin-top: 15px;
+     color: rgb(252,165,3);
+     text-align: center;
+}
+
+.card-body {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.card-body h3{
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    margin: 14px;
+    font-size: 18px;
+}
+
+/* Responsive Margin for Rows */
+.row.mb-4 {
+    margin-bottom: 1rem;
+    height: 235px;
+    margin-bottom: 80px;
+}
+
+/* Responsive Margin for Columns */
+.col-md-4.mb-4 {
+    margin-bottom: 1rem;
+    width: 30%;
+    display: inline-block;
+    background-color: white; 
+    margin-left: 20px;
+    margin-bottom: 20px; 
+}
+
+/* Optional: Adjust styles based on your design preferences */
+
+
+
+/*only for footer css*/
+
+.footer{
+    width: 100vw;
+    height: 65vh;
+    background-color: rgb(9, 9, 57);
+}
+
+.footer_wrapper{
+    width: 88vw;
+    display: flex;
+     
+}
+
+.footer_wrapper .imp_link{
+    color: white;
+    margin-top: 60px;
+    margin-left: 170px;
+    align-items: center;
+
+}
+
+.footer_wrapper .imp_link .hr1 hr{
+   width: 62px;
+   background-color: orangered;
+   color: orangered; 
+}
+
+.footer_wrapper .imp_link .hr4 hr{
+    width: 122px;
+     
+ }
+
+.footer_wrapper .imp_link ul{
+    margin-top: 25px;
+    margin-left: 10px;
+    list-style: none;
+}
+
+.footer_wrapper .imp_link ul li{
+    margin-bottom: 16px;
+    color:rgb(246, 242, 242);
+}
+
+.footer_wrapper .imp_link ul li:hover{
+    color: orange;
+}
+
+.footer_wrapper .imp_link input{
+    width: 15vw;
+    height: 30px;
+    margin-top: 18px;
+
+}
+
+.footer_wrapper .imp_link .footer_btn{
+    margin-top: 17px;
+    width: 15vw;
+    height: 30px;
+    background-color: rgb(248, 42, 111);
+    color: white;
+}
+
+.footer_wrapper .imp_link .footer_btn:hover{
+    background-color: rgb(174, 86, 115);
+}
+
+.footer .hr_bottom{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.footer_heading{
+    color: white;
+    margin-top: 16px;
+    margin-left: 35px;
+    display: flex;
+    width: 100vw;
+    align-items: center;
+}
+
+.footer_cantent h5{
+    color: #bbb;
+    margin-top: 10px;
+}
+
+.footer_heading i{
+    margin-left: 30px;
+}
+
+.footer_heading .social_media{
+    margin-left: 550px;
+    font-size: 16px;
+}
+
+#h4{
+    align-items: center;
+    text-align: center;
+}
+
+#h4 p{
+    color: #bbb;
+    align-items: center;
+    margin-right: 20px;
+    overflow: hidden;
+    justify-content: center;
+}

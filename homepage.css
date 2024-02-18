@@ -1,0 +1,1210 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ 
+
+.nevbar{
+    background-color: aqua;
+    height: 62px;
+    text-align: center; 
+     
+    align-items: center;
+    display: flex;
+    background: transparent;
+}
+.nevbar.logo{
+    position: relative;
+    float: left;
+    padding-left: 7px;
+    padding-bottom: 11px;
+    align-items: center;
+    margin-left:8px ;
+}
+
+.nevbar .a{
+    padding: 16px;
+    width: 800px;
+}
+
+.nevbar .a a{
+    font-size: 20px;
+    font-weight: 650px;
+    margin-left: 60px;
+     font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+.nevbar .a a:hover{
+    color: orange;
+   
+}
+
+.nevbar .admin{
+    margin-left: 70px;
+}
+ 
+.nevbar .admin h4{
+    font-size: 20px;
+    margin-left: 40px;
+ }
+
+ .nevbar .btn button a{
+     text-decoration: none;
+      font-size: 19px;
+      color: white;
+ }
+
+ .nevbar .btn button{
+    background-color: chocolate;
+    width: 107px;
+    height: 38px;
+    border-radius: 14px;
+    margin-left: 40px;
+ }
+
+ .nevbar .btn button:hover{
+    border: 2px solid white;  
+    background-color: black;
+ }
+  
+ .h3{
+    color: green;
+    font-size: 21px;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 35px; 
+ }
+
+ .header h1{
+    font-size: 49px;
+    color: white;
+    margin-top: 70px;
+    margin-left: 320px;
+    
+ }
+
+ .paregrap{
+    color: green;
+    font-size: 21px;
+    margin-left: 320px;
+    margin-top: 40px;
+    color: white;
+ }
+
+ .slider{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/video/mountains_-_48873-_Original_.gif");
+    background-size: cover;
+    animation: slide 80s infinite;
+    
+ }
+
+ @keyframes slide{
+    30%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/video/mountains_-_48873-_Original_.gif");
+        background-size: cover;
+    }
+
+    30%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/video/sea_-_24216-_Original_.gif");
+        background-size: cover;
+    }
+
+    35%{
+        background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url("/images/video/rock_-_15527-_1440p_.gif");
+        background-size: cover;
+    }
+
+    
+ }
+
+.btn1{
+     margin-top: 28px; 
+}
+
+.btn1 button{
+    width: 140px;
+    height: 55px;
+    background-color: white;
+    margin-left: 330px;
+    
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+.btn1 button:hover{
+    background-color: black;
+     
+}
+
+.btn1 button a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    
+}
+
+ 
+
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+}
+
+.header_name{
+    font-size: 37px;
+    font-weight: bold;
+    margin-top: 70px;
+    font-family: sans-serif,serif;
+    text-shadow: red 5px +5px 8px;
+}
+
+.contener{
+    width: 90vw;
+    font-size: 23px;
+    color: white;
+    font-weight: bold;
+    
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+     
+}
+
+.contener h5{
+    
+    color: transparent;
+    margin-top: 20px;
+    border: 2px solid transparent;
+    height: 45px;
+    width: 90px;
+    padding-top: 9px;
+    margin-left: 30%;
+    
+}
+
+.contener h5:hover{
+    color: white;
+    border: 2px solid white;
+} 
+
+.contener .img1{
+    background-image: url("/images/historicalplaces/ayodhya-banner.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 267px;
+    height: 300px;
+    background-color: aqua;
+    margin-left: 110px;
+    margin-top: 50px;
+    padding-top: 25px;
+
+    box-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+    
+   
+}
+ 
+.contener .img2{
+    background-image: url("/images/historicalplaces/tajmahalllll.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 267px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 25px;
+    background-color: blue;
+    box-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.contener .img3{
+    background-image: url("/images/historicalplaces/Mumbai-India-scaled.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 267px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 25px; 
+    background-color: green;
+    box-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.contener .img4{
+    background-image: url("/images/historicalplaces/ooty2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 267px;
+    height: 300px;
+    margin-left: 20px;
+    margin-top: 50px;
+    padding-top: 25px;
+    background-color:red;
+    box-shadow: 5px 5px 10px black;
+    border-bottom-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
+.contener .img1:hover{
+    background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/historicalplaces/Golden-Temple-Amritsar-Punjab\ 01.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     
+    }
+ 
+.contener .img2:hover{
+        background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/extraimges/tajmahal.jpeg");
+         background-size: cover;
+         background-repeat: no-repeat;
+         
+        }
+
+.contener .img3:hover{
+            background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/historicalplaces/mumbaiplace.jpg");
+             background-size: cover;
+             background-repeat: no-repeat;
+             
+            } 
+
+.contener .img4:hover{
+                background:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/historicalplaces/ooty_after_hover.jpg");
+                background-repeat: no-repeat;
+                background-size: cover; 
+                }
+
+.btn3{
+    color: black;
+    font-size: 16px;
+    background-color: orangered;
+    width: 130px;
+    height: 55px;
+    margin-left: 44%;
+    margin-top: 45px;
+    box-shadow: 5px 5px 10px black;
+} 
+
+.btn3 button{
+    width:130px;
+    height: 55px;
+    background-color:pink;
+}
+
+.btn3 button a{
+    text-decoration:none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.btn3 button:hover{
+    background-color: orange;
+
+}
+
+.font{
+    margin-top: 110px;
+    color: orangered;
+     font-size: 22px;
+    font-family: cursive;
+}
+
+.choose_destination{
+    width: 100%;
+    height:600px;
+    background-color: white;
+    position: relative;
+} 
+
+.font_top{
+    font-size: 36px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    font-weight: 700;
+    text-shadow: rgb(88, 243, 88) 6px +6px 12px;
+}
+
+ hr{
+     width: 45px;
+     margin-left: 48%;
+     margin-top: 17px;
+     height: 3px;
+     background-color: orangered;
+     border: 1.5px solid orangered;
+}
+
+.font_second{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 21px;
+    font-family: cursive;
+}
+
+.wrapper{
+    width: 100%;
+    height: 83vh;
+    background-color:white;
+    padding-left: 13px;
+    position: relative;
+    display: flex;
+    
+}
+
+ 
+
+.wrapper .parent01{
+    width: 25%;
+    height: 197px;
+    margin: 22px;
+    display: inline-block;
+    background-image: url("/images/activity/paragliding1.png");
+    background-size: cover;
+    
+    padding-left: 18px;
+    box-shadow: 5px 5px 10px black;
+}
+.wrapper .parent02{
+    width: 25%;
+    height: 197px;
+    margin: 22px;
+    display: inline-block;
+     
+    padding-left: 20px;
+    background-image: url("/images/activity/snorkeling01.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 10px black;
+}
+.wrapper .parent03{
+    width: 25%;
+    height: 197px;
+    margin: 22px;
+    display: inline-block;
+     
+    padding-left: 20px;
+    background-image: url("/images/activity/boating1.webp");
+    background-size: cover;
+    box-shadow: 5px 5px 10px black;
+}
+
+.wrapper .parent04{
+    width: 25%;
+    height: 197px;
+    margin: 22px;
+    display: inline-block;
+     
+    padding-left: 20px;
+    background-image: url("/images/activity/waterfall01.jpg");
+    background-size: cover;
+    box-shadow: 5px 5px 10px black;
+}
+
+ 
+.wrapper p{
+    display: inline-block;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    margin-left: 13px;
+    width: 240px;
+    height: 30px;
+     margin-top: 160px; 
+     background-color: rgba(0,0,0,0.4);
+     justify-content: center;
+     padding-top: 5px;
+     color: white;
+     font-size: 19px;
+      display: none;
+}
+ 
+.wrapper .parent01:hover{
+    background-image: url("/images/activity/paragliding2.png");
+    background-size: cover;
+
+}
+
+.wrapper .parent01:hover p{
+    display: block;
+    text-align: center; 
+}
+
+.wrapper .parent02:hover{
+    background-image: url("/images/activity/snorkeling-in-02.png");
+    background-size: cover;
+
+}
+
+.wrapper .parent02:hover p{
+    display: block;
+    text-align: center; 
+}
+
+.wrapper .parent03:hover{
+    background-image: url("/images/activity/boatingtop01.webp");
+    background-size: cover;
+
+}
+
+.wrapper .parent03:hover p{
+    display: block;
+    text-align: center; 
+}
+
+.wrapper .parent04:hover{
+    background-image: url("/images/activity/waterfall02.webp");
+    background-size: cover;
+
+}
+
+.wrapper .parent04:hover p{
+    display: block;
+    text-align: center; 
+}
+
+.choose_destination .text1{
+    width: 200px;
+    position: absolute;
+   display: flex;
+   top: 10px;
+   display: inline-block;
+   margin-left: 76px;
+   margin-top: 340px;
+   font-size: 19px;
+   font-weight: bold;
+}
+
+.choose_destination .text2{
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    margin-left: 418px;
+    margin-top: 340px;
+    font-size: 19px;
+   font-weight: bold;
+    
+ }
+
+ .choose_destination .text3{
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    margin-left: 727px;
+    margin-top: 340px;
+    font-size: 19px;
+   font-weight: bold;
+ }
+
+ .choose_destination .text4{
+    display: inline-block;
+    position: absolute;
+    display: flex;
+    top: 10px;
+    margin-left: 1040px;
+    margin-top: 340px;
+    font-size: 19px;
+   font-weight: bold;
+ }
+
+ .choose_destination_btn button{
+    display: block;
+    position: absolute;
+    top: 10px;
+    display: flex;
+    text-align: center;
+    margin-left: 46%;
+    margin-top: 409px;
+    width: 130px;
+    height: 55px;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 5px 5px 10px black;
+    background-color: rgb(42,232,77);
+ }
+
+ .choose_destination_btn button a{
+     text-decoration: none;
+     font-size: 17px;
+     color: black;
+     font-weight: bold;
+     justify-content: center;
+ }
+
+ .choose_destination_btn button:hover{
+     background-color: orange;
+     border: 2px solid white;
+     
+ }
+ 
+ .long_img{
+    width: 100%;
+    height: 350px;
+    background-color: aqua;
+     
+    background-image: url("/images/activity/waterfall01.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    align-items: center; 
+      
+ } 
+
+ .header1{
+    color: orangered;
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 44%; 
+ }
+
+ .header2{
+    font-size: 39px;
+    font-weight: bold;
+     color: white;
+     position: absolute;
+     margin-top: 120px; 
+     margin-left: 43%; 
+ }
+
+ .header2 hr{
+    display: inline;
+        width: 50px;
+        margin-left: 0%;
+        margin-top: 17px;
+        height: 3px;
+        background-color: orangered;
+        border: 1.5px solid orangered;
+        align-items: center;
+        padding-left: 2px;
+ }
+ 
+
+ 
+
+ .header3{
+    font-size: 23px;
+     color: white;
+     position: absolute;
+     margin-top: 200px;
+     margin-left: 39%;  
+ }
+
+ video{
+    position: relative;
+    bottom: 0px;
+    margin-left: 28%;
+    margin-top: 270px;
+    border-radius: 20px; 
+     
+ }
+
+ .contener5{
+    height: 550px;
+ }
+
+ .contener5 .font{
+    margin-top: 130px;
+    color: orangered;
+     font-size: 22px;
+    font-family: cursive;
+    text-align: center;
+ }
+
+ .contener5 p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+    line-height: 24px; 
+ }
+
+ .contener5 .place1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    display: inline-block;
+    margin-left: 110px; 
+    margin-top: 27px; 
+    text-align: center;
+    border-radius: 50%; 
+    background-image: url("/images/historicalplaces/mumbaiplace.jpg"); 
+    background-size: cover;
+    overflow: hidden; 
+    box-shadow: black 5px 5px 10px;
+}
+
+ .contener5 .place2{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    display: inline-block;
+    margin-left: 90px; 
+    text-align: center;
+    border-radius: 50%; 
+    background-image: url("/images/extraimges/manali1.jpeg"); 
+    background-size: cover;
+    overflow: hidden; 
+    box-shadow: black 5px 5px 10px;
+ }
+
+ .contener5 .place3{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    display: inline-block;
+    margin-left: 90px; 
+    text-align: center;
+    border-radius: 50%; 
+    background-image: url("/images/extraimges/shimla.jpg"); 
+    background-size: cover;
+    overflow: hidden; 
+    box-shadow: black 5px 5px 10px;
+ }
+
+ .contener5 .place4{
+    width: 200px;
+    height: 200px;
+    background-color: orangered;
+    display: inline-block;
+    margin-left: 90px; 
+    text-align: center;
+    border-radius: 50%;
+    background-image: url("/images/extraimges/Ooty.webp"); 
+    background-size: cover; 
+    overflow: hidden;  
+    box-shadow: black 5px 5px 10px;
+ }
+
+ .contener5 .place1 p{
+    font-size: 22px;
+    color: white;
+    margin-top: 83px;
+    background-color: rgba(0,0,0,0.7);
+    width: 120px;
+    margin-left: 35px;
+    display:none;
+ }
+
+ .contener5 .place2 p{
+    font-size: 22px;
+    color: white;
+    margin-top: 83px;
+    background-color: rgba(0,0,0,0.7);
+    width: 120px;
+    margin-left: 35px;
+    display:none;
+ }
+ 
+ .contener5 .place3 p{
+    font-size: 22px;
+    color: white;
+    margin-top: 83px;
+    background-color: rgba(0,0,0,0.7);
+    width: 120px;
+    margin-left: 35px;
+    display:none;
+ }
+ 
+ .contener5 .place4 p{
+    font-size: 22px;
+    color: white;
+    margin-top: 83px;
+    background-color: rgba(0,0,0,0.7);
+    width: 120px;
+    margin-left: 35px;
+    display:none;
+ }
+ 
+  .place1:hover p{
+    display: block;
+ }
+
+ .place2:hover p{
+    display: block;
+ }
+
+ .place3:hover p{
+    display: block;
+ }
+
+ .place4:hover p{
+    display: block;
+ }
+
+ .btn4 button{
+    width: 165px;
+    height: 60px;
+    background-color: rgb(32, 240, 32);
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 25px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px 10px;
+ }
+
+ .btn4 button a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+ }
+
+ .btn4 button:hover {
+    background-color: green;
+    border: 2px solid white;
+     
+ }
+ 
+ .contener6 .discout{
+    width: 100%;
+    height: 350px;
+    background-image: url("/images/mounten/shimla_best199.jpg");
+    background-size: cover;
+    
+    opacity:0.4;
+    position: absolute; 
+ }
+ .contener6 .discout{
+   box-shadow: 6px 6px 10px black;
+ }
+
+ .contener6 .font{
+    
+    color: orangered;
+     font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 800;
+    top: 10px; 
+    position: relative;
+ }
+
+ .contener6 .font{
+    padding-top: 75px;
+ }
+
+ .contener6 .offer{
+    padding-top: 30px;
+    font-size: 38px;
+    color: black;
+    font-weight: 900;
+    line-height: 25px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+ }
+
+ .contener6 .hr1 hr{
+    margin-top: 38px;
+     width: 60px;
+     position: relative;
+ }
+
+ .contener6 .btn5{
+    text-align: center;
+    margin-top:38px ;
+     
+ }
+
+ .contener6 .btn5 button{
+    height: 44px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: rgb(14, 236, 14);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    position: relative; 
+ }
+
+ .contener6 .btn5 button:hover{
+    background-color: black;
+    border: 2px solid white;
+    font-size:18px ;
+ }
+
+ .contener7{
+    margin-top: 65px;
+ }
+
+ .contener7 .font{
+    color: orangered;
+     font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+    font-weight: 800;
+    padding-top: 95px; 
+ }
+
+ .contener7 .gallary{
+    padding-top: 25px;
+    font-size: 38px;
+    color: black;
+    font-weight: 800;
+    line-height: 25px;
+    text-align: center;
+    font-family: sans-serif;
+ }
+
+ .contener7 hr{
+    margin-top: 28px;
+     
+ }
+
+ .contener7 .galary{
+    display: inline-block;
+    display: flex;
+    margin-left: 10px;
+ }
+
+ .contener7 .galary .img001{
+    width: 275px;
+    height: 180px;
+    background-color: yellow;
+    margin-top: 24px;
+    margin-left: 72px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/1.jpeg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary .img001:hover{
+    background-image: url("/images/gallery/1.jpeg");
+    background-size: cover;
+ }
+
+ .contener7 .galary .img002{
+    width: 275px;
+    height: 180px;
+    background-color: green;
+    margin-top: 24px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/2.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary .img002:hover{
+    background-image: url("/images/gallery/2.jpg");
+    background-size: cover;
+ }
+
+ .contener7 .galary .img003{
+    width: 275px;
+    height: 180px;
+    background-color: orange;
+    margin-top: 24px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/7.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary .img003:hover{
+    background-image: url("/images/gallery/7.jpg");
+    background-size: cover;
+ }
+
+ .contener7 .galary .img004{
+    width: 275px;
+    height: 180px;
+    background-color: pink;
+    margin-top: 24px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/4.webp");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary .img004:hover{
+    background-image: url("/images/gallery/4.webp");
+    background-size: cover;
+ }
+
+
+ .contener7 .galary2{
+    display: inline-block;
+    display: flex;
+    margin-left: 10px;
+ }
+
+ .contener7 .galary2 .img001{
+    width: 275px;
+    height: 180px;
+    background-color: yellow;
+    margin-top: 12px;
+    margin-left: 72px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/8.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary2 .img001:hover{
+    background-image: url("/images/gallery/8.jpg");
+    background-size: cover;
+ }
+
+ .contener7 .galary2 .img002{
+    width: 275px;
+    height: 180px;
+    background-color: green;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/beach3.png");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary2 .img002:hover{
+    background-image: url("/images/gallery/beach3.png");
+    background-size: cover;
+ }
+
+ .contener7 .galary2 .img003{
+    width: 275px;
+    height: 180px;
+    background-color: orange;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/12.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary2 .img003:hover{
+    background-image: url("/images/gallery/12.jpg");
+    background-size: cover;
+ }
+
+ .contener7 .galary2 .img004{
+    width: 275px;
+    height: 180px;
+    background-color: pink;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/10.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary2 .img004:hover{
+    background-image: url("/images/gallery/10.jpg");
+    background-size: cover;
+ }
+
+
+
+
+ .contener7 .galary3{
+    display: inline-block;
+    display: flex;
+    margin-left: 10px;
+    height: 250px;
+ }
+
+ .contener7 .galary3 .img001{
+    width: 275px;
+    height: 180px;
+    background-color: yellow;
+    margin-top: 12px;
+    margin-left: 72px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/9.webp");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary3 .img001:hover{
+    background-image: url("/images/gallery/9.webp");
+    background-size: cover;
+ }
+
+ .contener7 .galary3 .img002{
+    width: 275px;
+    height: 180px;
+    background-color: green;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/10.webp");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary3 .img002:hover{
+    background-image: url("/images/gallery/10.webp");
+    background-size: cover;
+ }
+
+ .contener7 .galary3 .img003{
+    width: 275px;
+    height: 180px;
+    background-color: orange;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/111.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary3 .img003:hover{
+    background-image: url("/images/gallery/111.jpg");
+    background-size: cover;
+ }
+
+ .contener7 .galary3 .img004{
+    width: 275px;
+    height: 180px;
+    background-color: pink;
+    margin-top: 12px;
+    margin-left: 12px;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("/images/gallery/122.jpg");
+    background-size: cover;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 12px;
+ }
+
+ .contener7 .galary3 .img004:hover{
+    background-image: url("/images/gallery/122.jpg");
+    background-size: cover;
+ }
+
+
+ .footer{
+   width: 100vw;
+   height: 65vh;
+   background-color: rgb(9, 9, 57);
+}
+
+.footer_wrapper{
+   width: 88vw;
+   display: flex;
+    
+}
+
+.footer_wrapper .imp_link{
+   color: white;
+   margin-top: 60px;
+   margin-left: 170px;
+   align-items: center;
+
+}
+
+.footer_wrapper .imp_link .hr1 hr{
+  width: 80px;
+  margin-left: 0px;
+  margin-top: 6px;  
+}
+
+.footer_wrapper .imp_link h2 hr{
+   width: 110px;
+  margin-left: 0px;
+  margin-top: 6px;
+}
+
+.footer_wrapper .imp_link .hr4 hr{
+   width: 122px;
+   margin-left: 0px;
+   margin-top: 6px; 
+}
+
+.footer_wrapper .imp_link ul{
+   margin-top: 25px;
+   margin-left: 10px;
+   list-style: none;
+}
+
+.footer_wrapper .imp_link ul li{
+   margin-bottom: 16px;
+   color:rgb(246, 242, 242);
+}
+
+.footer_wrapper .imp_link ul li:hover{
+   color: orange;
+}
+
+.footer_wrapper .imp_link input{
+   width: 15vw;
+   height: 30px;
+   margin-top: 18px;
+
+}
+
+.footer_wrapper .imp_link .footer_btn{
+   margin-top: 17px;
+   width: 15vw;
+   height: 30px;
+   background-color: rgb(248, 42, 111);
+   color: white;
+}
+
+.footer_wrapper .imp_link .footer_btn:hover{
+   background-color: rgb(174, 86, 115);
+}
+
+.footer .hr_bottom{
+   position: relative;
+   margin-bottom: 25px;
+}
+
+.footer_heading{
+   color: white;
+   margin-top: 16px;
+   margin-left: 35px;
+   display: flex;
+   width: 100vw;
+   align-items: center;
+}
+
+.footer_cantent h5{
+   color: #bbb;
+   margin-top: 10px;
+}
+
+.footer_heading i{
+   margin-left: 30px;
+}
+
+.footer_heading .social_media{
+   margin-left: 550px;
+   font-size: 16px;
+}
+
+#h4{
+   align-items: center;
+   text-align: center;
+}
+
+#h4 p{
+   color: #bbb;
+   align-items: center;
+   margin-right: 20px;
+   overflow: hidden;
+   justify-content: center;
+}
